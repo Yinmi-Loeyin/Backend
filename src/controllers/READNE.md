@@ -22,37 +22,37 @@ A simple Node.js and Express backend API for managing a list of books.
 1. Clone the repository or download the source code.
 2. Install dependencies:
 
-   ```bash
+   bash
    npm install
-   ```
+   
 
 ### Running the Server
 
 For development (with auto-restart):
 
-```bash
+bash
 npm run dev
-```
+
 
 For production:
 
-```bash
+bash
 npm start
-```
+
 
 The server will run on [http://localhost:5000](http://localhost:5000).
 
 ## API Endpoints
 
-- `GET /books` - Get all books
-- `GET /books/:id` - Get a book by ID
-- `POST /books` - Add a new book
-- `PUT /books/:id` - Update a book
-- `DELETE /books/:id` - Delete a book
+- GET /books- Get all books
+- GET /books/:id- Get a book by ID
+- POST /books- Add a new book
+- PUT /books/:id - Update a book
+- DELETE /books/:id- Delete a book
 
 ## Project Structure
 
-```
+
 src/
   app.js
   controllers/
@@ -62,7 +62,7 @@ src/
   middleware/
     logger.js
 package.json
-```
+
 
 ## License
 
